@@ -1,0 +1,10 @@
+uuid: f01e3f34-accd-40d9-867c-3a882328da43
+langcode: en
+status: true
+dependencies: {  }
+id: list
+label: List
+icon_uuid: null
+icon_default: null
+description: 'Stores movies name for a list'
+behavior_plugins: {  }

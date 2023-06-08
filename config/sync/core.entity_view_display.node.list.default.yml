@@ -1,0 +1,64 @@
+uuid: eb98dc42-56ac-4c8f-a5f2-51a316ddb5fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.list.field_list_date
+    - field.field.node.list.field_list_name
+    - field.field.node.list.field_movie
+    - field.field.node.list.field_why_these_are_in_the_list
+    - node.type.list
+  module:
+    - datetime
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.list.default
+targetEntityType: node
+bundle: list
+mode: default
+content:
+  field_list_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_list_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_movie:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_why_these_are_in_the_list:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  layout_builder__layout: true
+  search_api_excerpt: true

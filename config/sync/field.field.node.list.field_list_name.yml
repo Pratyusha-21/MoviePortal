@@ -1,0 +1,21 @@
+uuid: 0008e5e6-b435-49f4-a58e-4a48a021337f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_name
+    - node.type.list
+  module:
+    - text
+id: node.list.field_list_name
+field_name: field_list_name
+entity_type: node
+bundle: list
+label: 'List Title'
+description: 'stores list title'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

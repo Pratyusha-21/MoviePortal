@@ -1,0 +1,25 @@
+uuid: f8995b4f-840a-44a2-9148-40527a1aa977
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.list.field_movie_name
+    - paragraphs.paragraphs_type.list
+  module:
+    - text
+id: paragraph.list.default
+targetEntityType: paragraph
+bundle: list
+mode: default
+content:
+  field_movie_name:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

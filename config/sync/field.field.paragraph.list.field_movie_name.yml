@@ -1,0 +1,21 @@
+uuid: 3b223eef-2749-457b-9912-4cf9df001b12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_movie_name
+    - paragraphs.paragraphs_type.list
+  module:
+    - text
+id: paragraph.list.field_movie_name
+field_name: field_movie_name
+entity_type: paragraph
+bundle: list
+label: 'Movie Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

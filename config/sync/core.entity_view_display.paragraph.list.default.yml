@@ -1,0 +1,23 @@
+uuid: dc5259ad-160e-4d72-8825-2f6ab4919359
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.list.field_movie_name
+    - paragraphs.paragraphs_type.list
+  module:
+    - text
+id: paragraph.list.default
+targetEntityType: paragraph
+bundle: list
+mode: default
+content:
+  field_movie_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

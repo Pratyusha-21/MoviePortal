@@ -1,0 +1,21 @@
+uuid: f3bde51b-3b72-41ad-97da-66464575168f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_date
+    - node.type.list
+  module:
+    - datetime
+id: node.list.field_list_date
+field_name: field_list_date
+entity_type: node
+bundle: list
+label: 'List Date'
+description: 'stores the date of the list when it was added'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

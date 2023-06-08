@@ -1,0 +1,8 @@
+uuid: 595bb9c8-7028-49af-9f79-802882f9f683
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Category'
+vid: news_category
+description: 'Stores category of news related to movie'
+weight: 0

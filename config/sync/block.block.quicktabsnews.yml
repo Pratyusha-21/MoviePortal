@@ -1,0 +1,25 @@
+uuid: 8dcb2dbd-22a1-4dfd-bc04-03470b56001a
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bootstrap
+id: quicktabsnews
+theme: bootstrap
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'quicktabs_block:news'
+settings:
+  id: 'quicktabs_block:news'
+  label: 'QuickTabs - News'
+  label_display: '0'
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/latest-reviews\r\n<front>"

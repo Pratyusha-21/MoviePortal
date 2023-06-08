@@ -1,0 +1,15 @@
+uuid: 43355b5c-89fe-4e05-a082-85257c019081
+langcode: en
+status: true
+dependencies: {  }
+name: review_page_image_130_x_100_
+label: 'Review Page Image (130 X 100)'
+effects:
+  2b0b3f30-2473-424e-938e-7033939c45fa:
+    uuid: 2b0b3f30-2473-424e-938e-7033939c45fa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 130
+      height: 100
+      anchor: center-center

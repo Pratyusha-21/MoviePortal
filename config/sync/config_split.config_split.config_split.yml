@@ -1,0 +1,19 @@
+uuid: ae631632-6ef5-47a5-815e-afc15ca57ecf
+langcode: en
+status: true
+dependencies: {  }
+id: config_split
+label: 'Config split'
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/development
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - devel.toolbar.settings
+partial_list: {  }

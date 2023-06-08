@@ -1,0 +1,29 @@
+uuid: 651a5e7b-0071-40ec-ab1d-c1f489e9d8f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.list.field_list_date
+    - field.field.node.list.field_list_name
+    - field.field.node.list.field_movie
+    - field.field.node.list.field_why_these_are_in_the_list
+    - node.type.list
+  module:
+    - user
+id: node.list.teaser
+targetEntityType: node
+bundle: list
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_list_date: true
+  field_list_name: true
+  field_movie: true
+  field_why_these_are_in_the_list: true
+  search_api_excerpt: true
