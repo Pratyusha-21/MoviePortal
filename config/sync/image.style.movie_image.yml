@@ -1,0 +1,15 @@
+uuid: 390e7bec-c1b0-47a1-9b7c-8fd918493729
+langcode: en
+status: true
+dependencies: {  }
+name: movie_image
+label: 'Movie Image'
+effects:
+  7d5e53b7-d7d0-4eb7-a1a0-6a3fd90c91d4:
+    uuid: 7d5e53b7-d7d0-4eb7-a1a0-6a3fd90c91d4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

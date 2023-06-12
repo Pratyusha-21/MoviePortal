@@ -1,0 +1,30 @@
+uuid: b66bf3d9-9088-438e-9b22-52932ef4125f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_reviews
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__recent_reviews_block_1
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:recent_reviews-block_1'
+settings:
+  id: 'views_block:recent_reviews-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/movie/*'

@@ -1,0 +1,19 @@
+uuid: 1534f3dd-6a9c-46c5-a945-91ef982d26df
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_why_these_are_in_the_list
+field_name: field_why_these_are_in_the_list
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
